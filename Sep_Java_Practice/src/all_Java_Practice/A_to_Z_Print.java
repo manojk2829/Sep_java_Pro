@@ -34,7 +34,6 @@ public class A_to_Z_Print {
 		String ssss =new String(C);
 		System.out.println(ssss);
 
-
 		System.out.println();
 		System.out.println("Reverse the String....");
 		StringBuffer sb=new StringBuffer(s);
@@ -84,9 +83,11 @@ public class A_to_Z_Print {
 			if(!nonduplicate.contains(ss)){
 				nonduplicate.add(ss);
 			}else{
+				
 				duplicate.add(ss);
 			}
 		}
+
 		System.out.println(duplicate);
 
 		int string1 = 12345;
@@ -128,7 +129,6 @@ public class A_to_Z_Print {
 			}
 		}
 		System.out.println("Small ----- > " + small +" and large Number ---- > " + large);
-
 	}
 
 
@@ -180,7 +180,7 @@ public class A_to_Z_Print {
 
 
 
-/*int num = sc.nextInt();
+/* int num = sc.nextInt();
 			if(num%2==0){
 				System.out.println("number is even --- > " + num);
 			}else{
@@ -188,7 +188,7 @@ public class A_to_Z_Print {
 			}
 		}*/
 
-/*String str[] = new String[]{"java","ma","java","manoj","ma"};
+/* String str[] = new String[]{"java","ma","java","manoj","ma"};
 		Set nonDuplicateSet=new HashSet<>();
 		Set DuplicateSet=new HashSet<>();
 
@@ -199,7 +199,7 @@ public class A_to_Z_Print {
 				 DuplicateSet.add(string);
 			 }
 		}		
-		System.out.println(DuplicateSet);
+	System.out.println(DuplicateSet);
 	     /*String str ="manoj kushwaha";
 	     Set<Character> s=new HashSet<>();
 	     StringBuffer sb=new StringBuffer();
@@ -210,5 +210,5 @@ public class A_to_Z_Print {
 	    		 sb.append(c);
 	    	 }
 	     }
-	     System.out.println(sb.toString());*/
+     System.out.println(sb.toString());*/
 

@@ -4,8 +4,6 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.yaml.snakeyaml.emitter.ScalarAnalysis;
-
 public class RemoveDuplicateCharInString {
 
 	public static void main(String[] args) {

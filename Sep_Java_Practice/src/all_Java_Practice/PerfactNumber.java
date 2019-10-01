@@ -2,7 +2,7 @@ package all_Java_Practice;
 public class PerfactNumber {
 
 	public static void main(String[] args) {
-	int sum=0,n=14;
+	int sum=0,n=28;
 		for(int i=1;i<n;i++)
 		{
 			if(n%i==0){
